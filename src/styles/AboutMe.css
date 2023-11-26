@@ -1,0 +1,112 @@
+
+.AboutMe{
+    display:grid;
+    justify-items:center; 
+    background:#0e0e0e;   
+     color:white;
+}
+.about-sections{
+    max-width:550px;
+    padding:2rem
+}
+.cat-container{
+    display:flex;
+    justify-content:center;
+    padding-top:2rem
+}
+
+.cat-container img{
+width:10rem
+}
+.hello{
+    background:#2e323f;
+
+    border-radius:8px;
+    height:3rem;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    font-size:0.8rem;
+}
+.presentation{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+
+    padding-block:24px
+}
+.My-name{
+    text-aling:center
+}
+.presentation h2{
+  font-size:1.7rem
+}
+.presentation p{
+    margin-top:-1.5rem;
+    font-size:1rem
+}
+.container-img{
+    display:flex;
+    justify-content:flex-end;
+}
+ .container-img img {
+    border: 2px solid white;
+    width:51%;
+    border-radius:50%;
+}
+.greeting h2{
+    width:2.5rem;
+    font-size:1rem;
+    border-bottom:3px solid #D01082;
+}
+.greeting p{
+    font-size:12px;
+}
+.container-btn-contacts{
+    display:flex;
+    justify-content:center;
+}
+.btn-contact{
+    height: 1.8rem;
+    text-decoration: none;
+    color: #D01082;
+    border: 2px solid #D01082;
+    display: flex;
+    width: 9rem;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn-contact:hover{
+    background:#D01082;
+    border:2px solid white;
+    color:white;
+}
+.bio h2{
+    
+    font-size:1rem;
+    border-bottom:3px solid #D01082;
+    width:2rem;
+}
+.bio span{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.bio p{
+    font-size:0.8rem;
+}
+.likes h2{
+    font-size:1rem;
+    border-bottom:3px solid #D01082;
+    width:4rem;
+}
+.likes p{
+    fon-size:1.3rem;
+}
+.c{
+    background:#181A21;
+    width:100%;
+    display:flex;
+    justify-content:center
+}
