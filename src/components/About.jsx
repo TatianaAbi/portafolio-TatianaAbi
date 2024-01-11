@@ -7,8 +7,6 @@ function About() {
         <Nav/>
         <AboutMe/>
         </>
-        
-
     )
 }
 

@@ -6,22 +6,19 @@ import { Projects } from './components/Projects'
 import { NotFound } from './components/NotFound'
 import { Contact } from './components/Contact'
 import { About } from './components/About'
-
 function App() {
   return(
-    <>
     <HashRouter>
         <Routes>
-          <Route path='/' element={<Home/>}>
-          <Route path='/' element={<DefaultProjects/>}/>
-              <Route path=':slug' element={<Projects/>}/>
+          <Route path='/' element={<Home/>} >
+              <Route path='default' element={<DefaultProjects/>}  />
+              <Route path=':slug' element={<Projects/>} />
           </Route>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='*' element={<NotFound/>}/>
+          <Route path='/about' element={<About/> }/>
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='*' element={<NotFound/>} />
         </Routes>
     </HashRouter>
-    </>
   )
 }
 

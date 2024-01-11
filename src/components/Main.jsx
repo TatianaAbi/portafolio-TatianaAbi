@@ -17,10 +17,13 @@ function Main({children}) {
                     <h2>About Me</h2>
                 </div>
                 <div className="info">
-                    <p>hola soy tatiana abigail y soy desarrolladora frontent e trabajado con javascript para el desarrollo de paginas web y tambien usando librerias y frameworks como  react o vue tambien manejo los estilos y diseños de mi paginas web             </p>
+                    <p>Hello, I'm Tatiana Abigail and I'm a frontent developer.
+                     worked with javascript for web page development
+                     and also using libraries and frameworks like react or vue
+                     I also manage the styles and designs of my web pages</p>
                 </div>
                 <div className="button-container">
-                    <Link to="/about" className="btnMoreOfMe">MORE            </Link>
+                    <Link to="/about" className="btnMoreOfMe">MORE</Link>
                 </div>
             </div>
             </div>

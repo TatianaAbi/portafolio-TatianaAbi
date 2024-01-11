@@ -5,7 +5,7 @@
     background:#0e0e0e;   
      color:white;
 }
-.about-sections{
+.about-section{
     max-width:550px;
     padding:2rem
 }
@@ -96,12 +96,12 @@ width:10rem
 .bio p{
     font-size:0.8rem;
 }
-.likes h2{
+.I-likes h2{
     font-size:1rem;
     border-bottom:3px solid #D01082;
     width:4rem;
 }
-.likes p{
+.I-likes p{
     fon-size:1.3rem;
 }
 .c{

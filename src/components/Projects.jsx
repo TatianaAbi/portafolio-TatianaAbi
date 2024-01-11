@@ -14,13 +14,13 @@ function Projects() {
         <div className="carrusel">
         {blogData.projects.map((project, index) =>(
             <div className="elemento" key={index}>
-          <picture className="project-img">
-          <img src={project.img} alt={project.title}/>
-          </picture>
-        <div className="project-description">
-            <h2>{project.title}</h2>
-            <p>{project.text}</p>
-        </div>
+                <picture className="project-img">
+                    <img src={project.img} alt={project.title}/>
+                </picture>
+                <div className="project-description">
+                    <h2>{project.title}</h2>
+                    <p>{project.text}</p>
+                </div>
         </div>
         ))}
         

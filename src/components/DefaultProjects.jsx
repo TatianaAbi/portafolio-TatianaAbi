@@ -5,10 +5,10 @@ function DefaultProjects() {
     return(
         <div className="defaultComponentProjects"> 
            <div className='defaultComponent'>
-            <div className='gatito'>
-                <img src={CatImg} alt="gatito"/>
+            <div className='cat'>
+                <img src={CatImg} alt="cat"/>
             </div>
-            <p>some of my projects</p>
+            <p>Some of my projects...</p>
            </div>
             
         </div>

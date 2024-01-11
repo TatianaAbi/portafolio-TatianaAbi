@@ -13,8 +13,8 @@ function Footer() {
                         <FaFacebook className='icons'/>
                         <FaGithub className='icons'/>
             </section>
-            <section className="aditionalInformation">
-                <p>my email is @lg3165777.gmail.com</p>
+            <section className="additionalInformation">
+                <p>my email is lg3165777@gmail.com</p>
             </section>
         </div>
     </>

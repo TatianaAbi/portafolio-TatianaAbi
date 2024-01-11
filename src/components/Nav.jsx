@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
 import '../styles/Nav.css'
+//
+
 
 function Nav() {
     return(
-    <>
     <div className="container-options">
           <div className='options'>
             <div>
@@ -17,7 +18,6 @@ function Nav() {
             </div>
           </div>
         </div>
-    </>
     )
 }
 
