@@ -31,8 +31,8 @@ export const portafolioData = [
             ]
     },
     {
-    linkName:'desing',
-    slug:'desing',
+    linkName:'design',
+    slug:'design',
     projects:[
         {title:'stayUpdated!', 
          text:'form design',
