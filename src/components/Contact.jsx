@@ -1,28 +1,23 @@
 import { Nav } from "./Nav"
 import "../styles/Contact.css"
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-
-
+import { SocialLinksContainer } from "./SocialLinksContainer";
+import { InfoBox } from "./InfoBox";
+import { ImgContent } from "./ImgContent";
+import { ContainerInfo } from "./ContainerInfo";
 
 function Contact() {
     return(
         <>
-         <Nav/>
+         <Nav />
         <div className="contact">
             <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/7745/7745954.png" alt="perrito"/>
-                <div className="contact-info">
-                    <p>my social networks are</p>
+                <ImgContent img={'https://cdn-icons-png.flaticon.com/512/7745/7745954.png'}/>
 
-                    <div className="container-icons">
-                        <FaInstagram className='icons'/>
-                        <FaFacebook className='icons'/>
-                        <FaGithub className='icons'/>
-                        
-                    </div>
-                </div>
+                <ContainerInfo>
+                    <InfoBox title='Social Networks' sentence='i like this social network' styleContainer='center'/>
+                    <SocialLinksContainer />
+                </ContainerInfo>
+                
             </article>
         </div>
         </>

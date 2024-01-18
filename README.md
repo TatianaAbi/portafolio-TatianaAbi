@@ -12,6 +12,6 @@ Hola! , te presento mi portafolio como desarrolladora frontend usando react 💼
 - abrir en el navegador la direcion http://localhost:3000
 
 ### Pre requisitos
-- Tener Node.js v20.9.0 o mayor a esta
+- Tener Node.js v20.9.0 o mayor a esta 👆
 - Tener instalado al menos react 18.2.0 o verciones siguientes despues de este 👆
 - React router dom 6

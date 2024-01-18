@@ -7,8 +7,6 @@
   }
   
   .Header{
-    /* position: relative; */
-    width: 100%;
     background-image:url('../img/pinos-fondo.jpeg');
     background-size: cover;
     background-position: center;
@@ -16,17 +14,8 @@
   }
    .header-shallow{
     background: rgba(0, 0, 0, 0.5);
-    
   }
-  .perfil{
-  
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45rem;
-     color: var(--white--);
-  }
+
   
   .container-perfil{
   
@@ -36,53 +25,13 @@
     justify-content: center;
     align-items: center;
   }
-  .photo{
-    display: grid;
-    grid-area: 1/1;
-    justify-items: center;
-    align-items: center;
-  
-  }
+
   .photo img{
     border-radius: 50%;
     width: 15rem;
     height: 15rem;
     border: 2px solid white;
   }
-  .my-name{
-    color:#ED0083;
-  }
-  .aboutMe {
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .sentence{
-    text-align: center;
-  }
-  .title{
-    margin-bottom: -2rem;
-  }
-  .btnMore{
-    display:flex;
-    width:10rem ;
-    height: 2.6rem;
-    border-radius: 10%;
-    font-size: 1.5rem;
-    color:white;
-    text-decoration:none;
-    border: 2px solid white;
-    background:transparent;
-    justify-content:center;
-    align-items:center;
-  }
-  .btnMore:hover{
-  background:#D01082;
-  color:white;
-  
-  }
-  
   
   @media (min-width:775px) {
     .container-options{
@@ -90,9 +39,7 @@
     }
     .perfil{
       box-sizing: border-box;
-      display: flex;
-      align-items: flex-start;
-      padding: 140px 50px 67px;
+      padding: 90px 20px 150px 20px;
      }
     .container-perfil{
       display:grid;
@@ -101,7 +48,4 @@
       justify-items: center;
       width: 75rem;
     }
-    .aboutMe{
-      font-size:1.5rem
-    } 
   }

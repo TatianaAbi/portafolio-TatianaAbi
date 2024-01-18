@@ -1,24 +1,14 @@
 import '../styles/Footer.css'
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-
+import { Email } from './Email'
+import { SocialLinksContainer } from './SocialLinksContainer'
 
 function Footer() {
     return(
-    <>
      <div className="footer-container">
-            <section className="social-media-icons">
-                        <FaInstagram className='icons'/>
-                        <FaFacebook className='icons'/>
-                        <FaGithub className='icons'/>
-            </section>
-            <section className="additionalInformation">
-                <p>my email is lg3165777@gmail.com</p>
-            </section>
+            <SocialLinksContainer/>
+            <Email/>
         </div>
-    </>
+
     )
 }
-
 export {Footer}

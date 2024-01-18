@@ -1,0 +1,26 @@
+.Img-box{
+    display:flex;
+    justify-content:center;
+    padding-top:2rem
+}
+
+.img-content{
+    width:10rem
+}
+  .circule-photo{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid white;
+  }
+
+.cart-img-container{
+  border:8px solid #181818;
+  width:18rem;
+  height:20rem;
+}
+.circule-photo-min{
+  border-radius: 50%;
+  width:50%;
+  border: 2px solid white;
+}

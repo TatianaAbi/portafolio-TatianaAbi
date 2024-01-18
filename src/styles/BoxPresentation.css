@@ -1,0 +1,16 @@
+.presentation{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+
+    padding-block:24px
+}
+.My-name{
+    text-aling:center
+}
+.presentation h2{
+    font-size:1.7rem
+  }
+.presentation p{
+    margin-top:-1.5rem;
+    font-size:1rem
+}

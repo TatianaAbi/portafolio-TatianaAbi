@@ -1,29 +1,23 @@
-import { Link } from "react-router-dom"
 import '../styles/Header.css'
-import img from '../img/default.png'
+import { ArticleContainer } from './ArticleContainer'
+import { HeaderInfo } from './HeaderInfo'
+import { ImgContent } from './ImgContent'
+
+
 function Header() {
     return(
-    <>
      <div className="Header">
-      <div className="header-shallow">
-        <section className="perfil">
-              <div className="container-perfil">
-                <div className="aboutMe">
-                    <p className="title">hello</p>
-                    <h2 className="my-name"> I am Tatiana </h2>
-                    <p className="sentence">Frontend Web Designer & Developer</p>
-                    <Link className="btnMore" to="/about">MORE</Link>
-                </div>
-              <picture className="photo">
-              <img src={img} alt="creator"/>
-              </picture>
-              </div>
-        </section>
+        <div className="header-shallow">
+          <section className="perfil"> 
+                  <ArticleContainer>
+                        <ImgContent style={'circule-photo'}/> 
+                        <HeaderInfo/>
+                  </ArticleContainer>
+          </section> 
          
       </div>
 
     </div>
-    </>
     )
 }
 

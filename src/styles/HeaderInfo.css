@@ -1,0 +1,15 @@
+.header-info {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.my-name{
+    color:#ED0083;
+}
+.sentence{
+    text-align: center;
+}
+.title{
+    margin-bottom: -2rem;
+}

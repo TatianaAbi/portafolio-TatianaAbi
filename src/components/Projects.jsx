@@ -13,7 +13,7 @@ function Projects() {
     return( 
         <div className="carrusel">
         {blogData.projects.map((project, index) =>(
-            <div className="elemento" key={index}>
+            <div className="elemento" key={index} >
                 <picture className="project-img">
                     <img src={project.img} alt={project.title}/>
                 </picture>
@@ -21,6 +21,7 @@ function Projects() {
                     <h2>{project.title}</h2>
                     <p>{project.text}</p>
                 </div>
+
         </div>
         ))}
         
@@ -28,5 +29,6 @@ function Projects() {
     </div>  
     )
 }
+
 
 export {Projects}

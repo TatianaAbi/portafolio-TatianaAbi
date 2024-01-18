@@ -5,7 +5,7 @@ import { DefaultProjects } from './components/DefaultProjects'
 import { Projects } from './components/Projects'
 import { NotFound } from './components/NotFound'
 import { Contact } from './components/Contact'
-import { About } from './components/About'
+import { AboutMe } from './components/AboutMe'
 function App() {
   return(
     <HashRouter>
@@ -14,7 +14,7 @@ function App() {
               <Route path='default' element={<DefaultProjects/>}  />
               <Route path=':slug' element={<Projects/>} />
           </Route>
-          <Route path='/about' element={<About/> }/>
+          <Route path='/about' element={<AboutMe/> } />
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<NotFound/>} />
         </Routes>
