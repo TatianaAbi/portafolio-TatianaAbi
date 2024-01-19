@@ -4,11 +4,9 @@ import notFound from "../img/404.png"
 
 function NotFound() {
     return(
-    <>
     <ContainerInfo>
-            <ImgContent img={notFound}/>
+            <ImgContent img={notFound} />
     </ContainerInfo>
-    </>
     )
 }
 

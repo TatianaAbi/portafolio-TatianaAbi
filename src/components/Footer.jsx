@@ -5,8 +5,8 @@ import { SocialLinksContainer } from './SocialLinksContainer'
 function Footer() {
     return(
      <div className="footer-container">
-            <SocialLinksContainer/>
-            <Email/>
+            <SocialLinksContainer />
+            <Email />
         </div>
 
     )

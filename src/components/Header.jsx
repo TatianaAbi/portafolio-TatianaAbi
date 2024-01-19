@@ -10,8 +10,8 @@ function Header() {
         <div className="header-shallow">
           <section className="perfil"> 
                   <ArticleContainer>
-                        <ImgContent style={'circule-photo'}/> 
-                        <HeaderInfo/>
+                        <ImgContent style={'circule-photo'} /> 
+                        <HeaderInfo  />
                   </ArticleContainer>
           </section> 
          

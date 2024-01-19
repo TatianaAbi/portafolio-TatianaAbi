@@ -45,9 +45,9 @@ function AboutMe() {
 
             {MoreInfo.map((info)=>
                 <div key={info.text}>
-                    <InfoBox sentence={info.text} title={info.title} />
+                    <InfoBox sentence={info.text} title={info.title}  />
                     <div className={!info.link ? 'inactive' : 'btn-content'}>
-                        <Button link={info.link} name={info.link}/>
+                        <Button link={info.link} name={info.link}  />
                     </div>
                 </div>
             )}

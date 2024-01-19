@@ -15,11 +15,10 @@ const info= {
 function Main({children}) {
 
     return(
-    <>
     <div className="Main-container">
 
         <section className="article-container">
-            {/* <article className="cart-container"> */}
+
             <ArticleContainer>
                 <ImgContent style={'cart-img-container'}/>
                 <div className="description">
@@ -28,15 +27,12 @@ function Main({children}) {
                 </div>
             </ArticleContainer>
                 
-
-            {/* </article> */}
         </section>
         <section>
         {children}
         </section>
 
     </div>
-    </>
     )
 }
 

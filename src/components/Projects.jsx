@@ -4,6 +4,8 @@
 import { useParams } from "react-router-dom"
 import {portafolioData} from "./portafolioData.js"
 import "../styles/Projects.css"
+import { ImgContent } from "./ImgContent.jsx"
+import { InfoBox } from "./InfoBox.jsx"
 
 function Projects() {
     const {slug}= useParams()
@@ -15,11 +17,11 @@ function Projects() {
         {blogData.projects.map((project, index) =>(
             <div className="elemento" key={index} >
                 <picture className="project-img">
-                    <img src={project.img} alt={project.title}/>
+                    <ImgContent img={project.img}  />
                 </picture>
+                
                 <div className="project-description">
-                    <h2>{project.title}</h2>
-                    <p>{project.text}</p>
+                    <InfoBox sentence={project.text} title={project.title} />
                 </div>
 
         </div>

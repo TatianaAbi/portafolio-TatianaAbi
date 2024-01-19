@@ -11,10 +11,10 @@ function Contact() {
          <Nav />
         <div className="contact">
             <article>
-                <ImgContent img={'https://cdn-icons-png.flaticon.com/512/7745/7745954.png'}/>
+                <ImgContent img={'https://cdn-icons-png.flaticon.com/512/7745/7745954.png'} />
 
                 <ContainerInfo>
-                    <InfoBox title='Social Networks' sentence='i like this social network' styleContainer='center'/>
+                    <InfoBox title='Social Networks' sentence='i like this social network' styleContainer='center' />
                     <SocialLinksContainer />
                 </ContainerInfo>
                 

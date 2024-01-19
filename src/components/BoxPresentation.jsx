@@ -8,7 +8,7 @@ function BoxPresentation(){
                 <h2 >tatiana abigail</h2>
                 <p>(frontent development)</p>
             </div>
-            <ImgContent style={'circule-photo-min'}/>
+            <ImgContent style={'circule-photo-min'}  />
         </div>
     )
 }export {BoxPresentation}
