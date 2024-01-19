@@ -9,9 +9,9 @@ Hola! , te presento mi portafolio como desarrolladora frontend usando react 💼
 ``` npm install```
 - ejecuta el comando
 ```  npm run dev ```
-- abrir en el navegador la direcion http://localhost:3000
+- abrir en el navegador la direcion http://localhost:5173
 
 ### Pre requisitos
-- Tener Node.js v20.9.0 o mayor a esta
+- Tener Node.js v20.9.0 o mayor a esta 👆
 - Tener instalado al menos react 18.2.0 o verciones siguientes despues de este 👆
 - React router dom 6

@@ -1,0 +1,21 @@
+.button-container{
+    height: 2.4rem;
+    text-decoration: none;
+    border: 2px solid #D01082;
+    display: flex;
+    width: 9rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color:white
+}
+.button-container:hover{
+    background:#D01082;
+    border:2px solid white;
+}
+.btn-content{
+    display:grid;
+    justify-items:center;
+}

@@ -1,17 +1,17 @@
 import '../styles/DefaultProjects.css'
 import CatImg from "../img/gato.png"
+import { ContainerInfo } from './ContainerInfo'
+import { ImgContent } from './ImgContent'
 
 function DefaultProjects() {
     return(
         <div className="defaultComponentProjects"> 
-           <div className='defaultComponent'>
-            <div className='cat'>
-                <img src={CatImg} alt="cat"/>
-            </div>
+        <ContainerInfo>
+            <ImgContent img={CatImg} />
             <p>Some of my projects...</p>
-           </div>
-            
+        </ContainerInfo>
         </div>
+
     )
 }
 export{DefaultProjects}
